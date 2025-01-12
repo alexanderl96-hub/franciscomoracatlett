@@ -1,0 +1,11 @@
+body {  
+    margin: 0px;
+    padding: 0px;
+}
+.App {
+    height: 100vh; /* Full viewport height */
+    overflow-y: scroll; /* Enable vertical scrolling for the content */
+    position: relative; /* Ensure context for child elements */
+    background: linear-gradient(0.25turn, #7c0101, #ad2a2af8, #7c0101);
+    z-index: 1;
+}

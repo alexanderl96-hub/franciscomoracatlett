@@ -1,0 +1,47 @@
+.navbar-container{
+   /* position: absolute;  */
+   position: fixed;
+   color: #fff; 
+   top: 0;             /* Align it at the top */
+   left: 0; 
+   width: 100%; 
+   z-index: 1000; 
+   border-bottom: 0.5px solid #000000;
+   background: linear-gradient(0.25turn, #7c0101, #ad2a2af8, #7c0101);
+   
+}
+.navbar-menu_title{
+    display: flex;
+    height: 90px;
+}
+.navbar-menu {
+    width: 70px;
+    margin-left: -70px; /* Keep this for hidden state */
+    position: absolute;
+    transition: margin-left 0.3s ease; /* Smooth transition for toggling */
+ }
+ 
+ .navbar-menu.visible {
+    margin-left: 0; /* Visible state */
+ }
+.navbar-menu h1 {
+    margin-left: 20px;
+    cursor: pointer;
+   
+}
+.navbar-menu-icon{
+    font-size: clamp(16px, 3.4vw, 36px);
+}
+.navbar-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar-title h1{
+    font-size: clamp(20px, 3.4vw, 36px);
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
