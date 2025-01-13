@@ -21,9 +21,9 @@
     transition: margin-left 0.3s ease; /* Smooth transition for toggling */
  }
  
- .navbar-menu.visible {
-    margin-left: 0; /* Visible state */
- }
+ /* .navbar-menu.visible {
+    margin-left: 0;
+ } */
 .navbar-menu h1 {
     margin-left: 20px;
     cursor: pointer;
@@ -45,3 +45,16 @@
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.sidenav{
+    transition: color 0.5s ease;  
+}
+
+
+  /* Responsive design */
+  @media (max-width: 1024px) {
+    .navbar-menu {
+       margin-left: 0;
+     }
+  }
+     

@@ -9,27 +9,46 @@
 }
 .Home-menu {
     flex: 1;
-    /* border: 0.5px solid #fff; */
     font-weight: 800;
     font-size: 1.3vw;
     border-radius: 10px;
     background-color: #000000;
     text-transform: uppercase;
-    padding: 4px;
+    padding: 5px;
    
 }
-.Home-menu > ul > li{
+.Home-menu ul {
+    padding: 0px 40px;
+  }
+.Home-menu ul li.active-item {
+    color: #ec0808;
+}
+
+.Home-menu ul li {
     line-height: 35px;
-
+    transition: color 0.3s ease;
 }
-.Home-menu > ul > li:hover{
-    color: #7c0101;
+.Home-menu ul li:hover {
+    color: #ec0808;
     cursor: pointer;
-
 }
+
 
 .Home-information {
     flex: 3;
     /* border: 0.5px solid #fff; */
     padding: 4px;
 }
+
+
+
+
+
+ /* Responsive design */
+ @media (max-width: 1024px) {
+    .Home-menu {
+        display: none;
+     }
+
+  
+  }
