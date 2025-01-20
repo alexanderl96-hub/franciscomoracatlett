@@ -28,10 +28,11 @@
     line-height: 35px;
     transition: color 0.3s ease;
 }
-.Home-menu ul li:hover {
+.Home-menu ul li.li-menu:hover {
     color: #ec0808;
     cursor: pointer;
 }
+
 
 
 .Home-information {

@@ -1,0 +1,66 @@
+.otherlabels-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column
+}
+.otherlabels-navbar{
+    padding-left: 10px; 
+    background-color: #000000;
+    width: 99%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.otherlabels-main {
+    margin-top: 45px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%; 
+    max-width: 1200px;  
+    flex-wrap: wrap;
+    /* gap: 14px; */
+}
+.otherlabels-square-info {
+    font-size: 16px;
+    line-height: 1.6;
+    /* text-align: justify; */
+    padding: 10px 10px;
+    width: 100%; 
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.otherlabels-albumImage-container {
+    width: 100%;
+    max-width: 450px;
+    height: 450px; 
+    border: 1px solid #000000;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+}
+.otherlabel-innertext {
+    padding: 0 15px;
+    text-align: justify;
+}
+.otherslabels-links{ 
+    margin-left: 5px;
+    color: #fff; 
+    text-decoration: none
+}
+.otherslabels-links:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px; /* Space between text and underline */
+    text-decoration-thickness: 1.5px; /* Thickness of the underline */
+    transition: text-underline-offset 1s ease-out, text-decoration-thickness 1s ease-out;
+}
