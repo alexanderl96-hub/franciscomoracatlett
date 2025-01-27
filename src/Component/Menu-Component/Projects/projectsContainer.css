@@ -1,0 +1,37 @@
+.projects-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column
+}
+.projects-navbar {
+    padding-left: 10px; 
+    background-color: #000000;
+    width: 99%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto; /* Center the navbar horizontally */
+    box-sizing: border-box; 
+    margin-bottom: 20px;
+}
+
+.projects-navbar div {
+    text-align: center; /* Center text within the divs */
+    flex: 1; /* Equal width for all three divs */
+    cursor: pointer;
+}
+
+.projects-navbar div:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.projects-navbar div:nth-child(2) {
+    border-left: 2px solid #ffffff; /* Adjust the color and width as needed */
+    border-right: 2px solid #ffffff;
+}

@@ -699,7 +699,6 @@ const otherlabels = () => {
             </div>
           </div>
         </div>
-        <div></div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import "./Home.css";
 import Homepage from "../HomePage/homepage";
 import AACE from "../Acce-Records/aacerecords";
 import Labels from "../Other-Labels/otherlabels";
-// import Projects from '../Projects/'
+import Projects from '../Projects/projectsContainer'
 import Events from "../Events-Concerts/events";
 import WriteUps from "../Write-Ups/writeups";
 import Bio from "../Resume-Bio/resumen";
@@ -65,7 +65,7 @@ const Home = ({ linkPath, menuIsActive, setMenuIsActive, setLinkPath }) => {
         {linkPath === "other labels" && <Labels />}
 
         {/* {activeValue === "Projects" && <Projects /> } */}
-        {/* {activeValue === "Projects" && <Projects /> } */}
+        {linkPath === "Projects" && <Projects /> }
 
         {/* {activeValue === "Events & Concerts" && !menuIsActive &&<Events /> } */}
         {linkPath === "Events & Concerts" && <Events />}
