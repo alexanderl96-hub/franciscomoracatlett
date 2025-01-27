@@ -11,6 +11,8 @@ import Other_8 from "../../../images/Otherlabels/FAROUT.14985702_std.png";
 import Other_9 from "../../../images/Otherlabels/MORA.14985621_std.jpg";
 import Other_10 from "../../../images/Otherlabels/mora_cd_2010.277185635_std.jpeg";
 import Other_11 from "../../../images/Otherlabels/BLUE.14985918_std.jpg";
+import Other_12 from "../../../images/Otherlabels/catlet_fran_riverdrum_101b.77115827_std.jpg";
+import Other_13 from "../../../images/Otherlabels/catlet_fran_worldtrad_101b.84162924_std.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faRightFromBracket,
@@ -465,7 +467,7 @@ const otherlabels = () => {
               borderRadius: "3px",
             }}
           />
-          <div style={{textAlign: 'justify'}}>
+          <div style={{ textAlign: "justify" }}>
             <p>
               Far Out Recordings is delighted to present Mora!, and for the
               first time ever on vinyl Mora! II. Mexican-American percussionist
@@ -530,29 +532,171 @@ const otherlabels = () => {
               2021.
             </p>
             <p>
-              Release date: 16th April 2021 | Also available on Bandcamp <br></br>
+              Release date: 16th April 2021 | Also available on Bandcamp{" "}
+              <br></br>
               Tracklist: <br></br>
               <p>
-              MORA I <br></br>
-              1 Prelude Welcome <br></br>
-              2 Afra Jum <br></br>
-              3 Rumba Morena <br></br>
-              4 Five A.M. <br></br>
-              5 Samba De Amor <br></br>
-              6 Cultural Warrior <br></br>
-              7 Epilogue-Conga "Hasta La Vista" 
+                MORA I <br></br>1 Prelude Welcome <br></br>2 Afra Jum <br></br>3
+                Rumba Morena <br></br>4 Five A.M. <br></br>5 Samba De Amor{" "}
+                <br></br>6 Cultural Warrior <br></br>7 Epilogue-Conga "Hasta La
+                Vista"
               </p>
               <p>
-              MORA II <br></br>
-              8 Afra Jum Pt. 2 <br></br>
-              9 Amazona Prelude "Dawn"
-              10 Amazona <br></br>
-              11 Samba "Conga Do Amor" <br></br>
-              12 El Moro <br></br>
-              13 Old Man Joe <br></br>
-              14 Por Que Paro <br></br>
-              15 Afra Jum Pt. 3. </p>
+                MORA II <br></br>8 Afra Jum Pt. 2 <br></br>9 Amazona Prelude
+                "Dawn" 10 Amazona <br></br>
+                11 Samba "Conga Do Amor" <br></br>
+                12 El Moro <br></br>
+                13 Old Man Joe <br></br>
+                14 Por Que Paro <br></br>
+                15 Afra Jum Pt. 3.{" "}
+              </p>
             </p>
+          </div>
+
+          <div className="otherlabels-square-info">
+            <div className="otherlabels-square-column-container">
+              <div className="otherlabels-square-column-one">
+                <img
+                  src={Other_10}
+                  alt="Example"
+                  style={{
+                    width: "100%",
+                    minWidth: "250px",
+                    height: "auto",
+                    marginBottom: "15px",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    borderRadius: "3px",
+                  }}
+                />
+                <div>
+                  <p>Francisco Mora Catlett – Mora!</p>
+                  <p style={{ marginTop: "-15px" }}>
+                    Label: SHOUT! Productions – SHOUT-255
+                  </p>
+                  <p style={{ marginTop: "-15px" }}>
+                    Series: Deep Jazz Reality
+                  </p>
+                  <p style={{ marginTop: "-15px" }}>
+                    Format: CD, Album, Reissue, Remastered, Paper Sleeve
+                  </p>
+                  <p style={{ marginTop: "-15px" }}>Country: Japan</p>
+                  <p style={{ marginTop: "-15px" }}>Released: 26 Sep 2012</p>
+                </div>
+                <img
+                  src={Other_12}
+                  alt="Example"
+                  style={{
+                    width: "100%",
+                    minWidth: "250px",
+                    height: "auto",
+                    marginBottom: "15px",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    borderRadius: "3px",
+                  }}
+                />
+                <div style={{ textAlign: "justify" }}>
+                  <p>RIVER DRUM</p>
+                  <p>Premier Cru, 2005</p>
+                  <p>
+                    Description: From 2005, this is an earlier gem from former
+                    Sun Ra & M'Boom percussionist, Francisco Mora Catlett. It
+                    features four different groups including a string quartet on
+                    one track. The players include Marcus Blegrave & John
+                    Douglass on trumpets, Alex Harding & Vincent Bowens on
+                    saxes, Sherman Mitchell on trombone, Craig Taborn or Kenny
+                    Cox on piano, Rodney Whittaker on bass, Emile Borde on steel
+                    drums, and Alberto Nacif, Jerry LeDuff & Francisco Mora
+                    Catlett on drums & percussion.<br></br>
+                    'River Drum' is one of the best percussion centered discs
+                    I've heard in a long while. Francisco wrote, arranged and
+                    produced this wonderful disc. I find this music to by
+                    joyous, jubilant and rhythmically seductive. The rich layer
+                    of interlocking percussion pushes this music to one great
+                    groove after another. I only know of a few of the musicians
+                    on this disc, but everyone plays superbly throughout. It is
+                    always great to hear local bari sax giant Alex Harding wail
+                    and he gets a few chances to stretch out here as well. The
+                    other (tenor) saxist here, Vincent Bowens also plays with
+                    fire and that creative spirit. Special mention to bassist
+                    Rodney Whitaker who plays some excellent acoustic bass
+                    throughout, bubbling and burning when need be. Steel
+                    drummer, Emile Borde, also sparkles all over the place, as
+                    do both trumpeters, the legendary Marcus Belgrave and John
+                    Douglass. <br></br>
+                    Considering that this disc is some 75-minutes long, I must
+                    admit that it is consistently spirited and creative. The
+                    only Latin (oriented) jazz that has knocked me out in years
+                    comes from Kip Hanrahan. It would seem the great Francisco
+                    Mora Catlett has given Kip a run for his money.
+                  </p>
+                  <p>- BLG / Bruce Lee Gallanter, Downtown Music Gallery.</p>
+                </div>
+              </div>
+              <div className="otherlabels-square-column-one">
+                <img
+                  src={Other_13}
+                  alt="Example"
+                  style={{
+                    width: "100%",
+                    minWidth: "250px",
+                    height: "auto",
+                    marginBottom: "15px",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    borderRadius: "3px",
+                  }}
+                />
+                <div style={{ textAlign: "justify" }}>
+                  <p>WORLD TRADE MUSIC</p>
+                  <p>Community, 1999</p>
+                  <p>
+                    Description: This is an older studio project from 1999 which
+                    features Francisco Mora Catlett on drums, percussion &
+                    compositions, Craig Taborn & Kenny Cox on pianos, Marcus
+                    Belgrave & Nik Pena on trumpets, Vincent Bowens, Alex
+                    Harding & Cassius Richmond on saxes & flute, Sherman
+                    Mitchell on trombone, Rodney Whittaker on bass and Andrew
+                    Daniels, Jerome LeDuff & Alberto Nacif on percussion. Famed
+                    Detroit producer Carl Craig has much respect for his former
+                    homey, Mexican/American percussion hero Francisco Mora
+                    Catlett. So much respect that he lets Francisco utilize his
+                    studio when need be and Craig released this disc on his own
+                    label, Community Projects. Sadly, this disc didn't have
+                    great distribution or recognition when it first came out.
+                    Things have got to change... <br></br>
+                    The introduction is called "Welcome" and it consists of
+                    jungle sounds and layers of Latin percussion. "Iron Master"
+                    is a Yoruba traditional song and features two softly
+                    swirling pianos with simmering percussion. You might recall
+                    elder Blue Note legend, pianist Kenny Cox from two great
+                    albums with the Contemporary Jazz Quintet in the late
+                    1960's. Both pianists here have obvious respect for one
+                    another play together superbly. Acoustic bassist Rodney
+                    Whitaker also stands out providing ample support and taking
+                    the occasional spirited bass solo. Four of these tracks are
+                    traditional Yoruda songs and each one has a special groove
+                    and/or vibe with enchanting percussion at the center of each
+                    piece. <br></br>
+                    Although Francisco is the main drummer throughout this disc,
+                    the other percussionists are on just a couple of songs each.
+                    It is Mr. Catlett's spirited drumming that is at the center
+                    of each piece, shaping and directing the joyous currents the
+                    run throughout this entire disc. There are number of
+                    highlights here like the hypnotic mbira & tranquil trumpet
+                    on "The Other Side of the Mask" as well as that most lyrical
+                    sax & melody on "Cultural Warrior". There is a most
+                    uplifting spirit that runs through this entire disc like a
+                    lifeline to & from the source. It seems sad that it took ten
+                    years for someone to notice how special and overlooked this
+                    disc is. I guess it is never too late to give some credit
+                    where credit is due. So here it is - rejoice!
+                  </p>
+                  <p> - Bruce Lee Gallanter, Downtown Music Gallery</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div></div>

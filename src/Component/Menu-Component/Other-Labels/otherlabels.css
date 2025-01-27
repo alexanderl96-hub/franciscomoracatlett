@@ -64,3 +64,24 @@
     text-decoration-thickness: 1.5px; /* Thickness of the underline */
     transition: text-underline-offset 1s ease-out, text-decoration-thickness 1s ease-out;
 }
+
+
+.otherlabels-square-column-container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: start;
+    gap: 23px;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+.otherlabels-square-column-one{
+    width: 100%; 
+    max-width: 350px;
+    /* padding: 10px 3px; */
+    /* border: 1px solid;  */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
